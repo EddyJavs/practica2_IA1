@@ -1,0 +1,87 @@
+{% extends '_base.html' %} 
+{% load static %}
+{% block title %}Citas{% endblock %}
+{% block css %}
+
+{% endblock css %}
+{% block content %} 
+    
+    <div class="calendar">
+        <h1>
+            <label for="searchCalendar">Algoritmo Genetico</label>
+            <br>
+            <br>
+        </h1>
+        
+        
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2>Realizar algoritmo genetico</h2>
+                <br><br>
+                <form action="{% url 'ParametrosAlgoritmo' 1 %}" method="post">
+                  {% csrf_token %}
+                      <h4>Cargue su archivo csv</h4>
+                      <input type="file" class="form-control-file" id="exampleFormControlFile1" name="archivo">
+                      <br>
+                      <h4 >Establezca un criterio de finalizacion</h4>
+                      <select class="form-control" id="exampleFormControlSelect1" name="finalizacion">
+                        <option>Maximo numero de generaciones</option>
+                        <option>Un porcentaje de la poblacion que tenga un valor fitness aceptable</option>
+                        <option>Un individuo dentro de la poblacion con buen valor fitness</option>
+                        
+                      </select>
+                      <h4 >Establezca un modo de seleccion de padres</h4>
+                      <select class="form-control" id="exampleFormControlSelect1" name="padres">
+                        <option>Seleccion aleatoria</option>
+                        <option>Seleccion mejores padres</option>
+                        <option>Seleccion por torneo</option>
+                      </select>
+                    <input type="submit" class="btn btn-primary" value="Realizar algoritmo genetico">
+                </form>
+            </div>
+            <div class="col">
+                <h2>Predecir nota de estudiante</h2><br><br>
+                <form action="{% url 'ParametrosAlgoritmo' 2 %}" method="post">
+                  {% csrf_token %}
+                    <div class="form-group">
+                      <h4>Proyecto 1</h4>
+                      <input type="text" class="form-control" id="pr1"  name="p1">
+                      <h4>Proyecto 2</h4>
+                      <input type="text" class="form-control" id="pr2" name="p2">
+                      <h4>Proyecto 3</h4>
+                      <input type="text" class="form-control" id="pr3" name="p3" >
+                      <h4>Proyecto 4</h4>
+                      <input type="text" class="form-control" id="pr4" name="p4" >
+                      
+                    </div>
+                    <button type="submit" class="btn btn-primary mb-2">Predecir Nota</button>
+                </form>
+            </div>
+          </div>
+          {% if message %}
+          <h4> La nota final predicha es  {{message}}</h4>
+          {% endif %}
+        
+      </div>
+      <script>
+        // Add the following code if you want the name of the file appear on select
+        $(".custom-file-input").on("change", function() {
+          var fileName = $(this).val().split("\\").pop();
+          $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+        });
+    </script>
+ {% endblock  %}
+
+
+{% block js %}
+    <script>
+        function OpenModal(){
+            $("#staticBackdrop").modal("show");
+        }      
+    </script>
+    <script>
+      alert('{{ message }}');
+  </script>
+{% endblock js %}

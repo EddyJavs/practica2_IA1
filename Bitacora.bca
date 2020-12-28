@@ -1,0 +1,65 @@
+BITACORA DE SOLUCIONES GENERADAS POR ALGORITMO GENETICO
+-----------------------------------------------------------------------------------------------
+-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*
+Fecha y hora de ejecucion: Sun Dec 13 01:07:13 2020
+Nombre del documento CSV utilizado: Practica1_Entrada.csv
+Criterio de finalizaciï¿½n utilizado: Maximo numero de generaciones
+Criterio de selecciï¿½n de padres utilizado: Seleccion mejores padres
+Nï¿½mero de generaciones generadas: 10
+Mejor soluciï¿½n encontrada por el algoritmo: [0.4744253780695722, 0.01659429401838519, -0.1547657108028262, 0.596754262629859]
+-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*
+Fecha y hora de ejecucion: Sun Dec 13 01:11:17 2020
+Nombre del documento CSV utilizado: Practica1_Entrada.csv
+Criterio de finalización utilizado: Un porcentaje de la poblacion que tenga un valor fitness aceptable
+Criterio de selección de padres utilizado: Seleccion mejores padres
+Número de generaciones generadas: 1674
+Mejor solución encontrada por el algoritmo: [0.15609107066271743, 0.1669892177469423, 0.30220822769354916, 0.38518014416718493]
+-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*
+Fecha y hora de ejecucion: Sun Dec 13 01:20:55 2020
+Nombre del documento CSV utilizado: Practica1_Entrada.csv
+Criterio de finalización utilizado: Un valor fitness promedio dentro de la poblacion
+Criterio de selección de padres utilizado: Seleccion mejores padres
+Número de generaciones generadas: 3519
+Mejor solución encontrada por el algoritmo: [0.14535837203010749, 0.1497507345282334, 0.298044515806692, 0.40723144070290473]
+-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*
+Fecha y hora de ejecucion: Mon Dec 14 15:05:55 2020
+Nombre del documento CSV utilizado: Practica1_Entrada.csv
+Criterio de finalización utilizado: Maximo numero de generaciones
+Criterio de selección de padres utilizado: Seleccion mejores padres
+Número de generaciones generadas: 2000
+Mejor solución encontrada por el algoritmo: [0.1767376271589236, 0.1431784125899087, 0.3078578549299582, 0.379178469593775]
+-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*
+Fecha y hora de ejecucion: Mon Dec 14 15:12:56 2020
+Nombre del documento CSV utilizado: Practica1_Entrada.csv
+Criterio de finalización utilizado: Un valor fitness promedio dentro de la poblacion
+Criterio de selección de padres utilizado: Seleccion mejores padres
+Número de generaciones generadas: 1564
+Mejor solución encontrada por el algoritmo: [0.1601031970125355, 0.15263991802554333, 0.2804272492968387, 0.4060909897270437]
+-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*
+Fecha y hora de ejecucion: Mon Dec 14 15:41:28 2020
+Nombre del documento CSV utilizado: Practica1_Entrada.csv
+Criterio de finalización utilizado: Un individuo dentro de la poblacion con buen valor fitness
+Criterio de selección de padres utilizado: Seleccion mejores padres
+Número de generaciones generadas: 3138
+Mejor solución encontrada por el algoritmo: [0.16491616167725454, 0.13804078790794483, 0.2920573426465305, 0.4061071990366645]
+-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*
+Fecha y hora de ejecucion: Mon Dec 14 15:57:22 2020
+Nombre del documento CSV utilizado: Practica1_Entrada.csv
+Criterio de finalización utilizado: Un individuo dentro de la poblacion con buen valor fitness
+Criterio de selección de padres utilizado: Seleccion mejores padres
+Número de generaciones generadas: 1702
+Mejor solución encontrada por el algoritmo: [0.13361665403850953, 0.1542508952039543, 0.2994842188799516, 0.4108118315979108]
+-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*
+Fecha y hora de ejecucion: Mon Dec 14 18:00:16 2020
+Nombre del documento CSV utilizado: Practica1_Entrada.csv
+Criterio de finalización utilizado: Un individuo dentro de la poblacion con buen valor fitness
+Criterio de selección de padres utilizado: Seleccion mejores padres
+Número de generaciones generadas: 2868
+Mejor solución encontrada por el algoritmo: [0.15670999801912489, 0.1426776697161256, 0.28609435553182916, 0.40966656482160424]
+-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*
+Fecha y hora de ejecucion: Mon Dec 14 18:04:23 2020
+Nombre del documento CSV utilizado: Practica1_Entrada_CALIFICACION.csv
+Criterio de finalización utilizado: Un individuo dentro de la poblacion con buen valor fitness
+Criterio de selección de padres utilizado: Seleccion mejores padres
+Número de generaciones generadas: 2655
+Mejor solución encontrada por el algoritmo: [0.11876913913429465, 0.19574418706747476, 0.2417252790237936, 0.4459434954446082]

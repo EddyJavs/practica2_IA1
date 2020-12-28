@@ -1,0 +1,114 @@
+{% extends '_base.html' %} 
+{% load static %}
+{% block title %}Citas{% endblock %}
+{% block css %}
+
+{% endblock css %}
+{% block content %} 
+    
+    <div class="calendar">
+        <h1>
+            <label for="searchCalendar">Clasificacion de imagenes</label>
+            <br>
+            <br>
+        </h1>
+        
+        
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2>Realizar entrenamiento</h2>
+                <br><br>
+                <form action="{% url 'Clasificacion' 1 %}" method="post">
+                  {% csrf_token %}
+                       <br>
+                      
+                    <input type="submit" class="btn btn-primary" value="Realizar entrenamiento">
+                </form>
+            </div>
+            <div class="col">
+              <h2>Clasificacion de imagenes</h2><br><br>
+                <form action="{% url 'Clasificacion' 2 %}" method="POST" enctype="multipart/form-data">
+                  {% csrf_token %}
+                  {{form}}<br>
+                      <input type="submit" class="btn btn-primary" value="Realizar prediccion">
+                </form>
+            </div>
+          </div>
+          <div class="row">
+            <br>
+            <br><br>
+            <h2>Resultados de las predicciones:</h2>  
+            <br>
+            <br>
+          {% if not flag %}
+          <table class="table table-striped table-dark">
+            <thead>
+              <tr>
+                <th scope="col">Escudo Universidad</th>
+                <th scope="col">Prediccion</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for prediccion in predicciones%}
+              <tr>
+                <td><img class="img-responsive" src="{% static prediccion.1 %}" alt="G" width="128" height="128"></td>
+                <td>{{prediccion.2}}</td>
+                
+              </tr>
+              {% endfor%}
+            </tbody>
+          </table>
+          {%else%}
+          <table class="table table-striped table-dark">
+            <thead>
+              <tr>
+                <th scope="col">Universidad</th>
+                <th scope="col">Porcentaje de aciertos</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><h4>USAC</h4></td>
+                <td>{{pUsac}}</td>
+              </tr>
+              <tr>
+                <td><h4>Landivar</h4></td>
+                <td>{{pLandivar}}</td>
+              </tr>
+              <tr>
+                <td><h4>Marroquin</h4></td>
+                <td>{{pMarroquin}}</td>
+              </tr>
+              <tr>
+                <td><h4>Mariano</h4></td>
+                <td>{{pMariano}}</td>
+              </tr>
+              
+            </tbody>
+          </table>
+          {%endif%}
+            <div>
+        
+      </div>
+      <script>
+        // Add the following code if you want the name of the file appear on select
+        $(".custom-file-input").on("change", function() {
+          var fileName = $(this).val().split("\\").pop();
+          $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+        });
+    </script>
+ {% endblock  %}
+
+
+{% block js %}
+    <script>
+        function OpenModal(){
+            $("#staticBackdrop").modal("show");
+        }      
+    </script>
+    <script>
+      alert('{{ message }}');
+  </script>
+{% endblock js %}

@@ -1,0 +1,100 @@
+
+-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*
+Fecha y hora de ejecucion: Tue Dec 22 11:37:18 2020
+Parametros utiizados: 
+       Alp: 0.001
+       Lam: 150 
+       Reg: False 
+Eficacia en entrenamiento: 96.60349732689616
+Eficacia en prueba:  88.53651548508799
+-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*
+
+-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*
+Fecha y hora de ejecucion: Sat Dec 26 18:14:37 2020
+Parametros utiizados: 
+       Alp: 0.001
+       Lam: 150 
+       Reg: False 
+Eficacia en entrenamiento: 96.23537433996182
+Eficacia en prueba:  90.40416053729575
+-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*
+
+-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*
+Fecha y hora de ejecucion: Sat Dec 26 18:20:00 2020
+Parametros utiizados: 
+       Alp: 0.001
+       Lam: 150 
+       Reg: False 
+Eficacia en entrenamiento: 97.23460622502823
+Eficacia en prueba:  91.03920618530064
+-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*
+
+-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*
+Fecha y hora de ejecucion: Sat Dec 26 18:22:12 2020
+Parametros utiizados: 
+       Alp: 0.001
+       Lam: 150 
+       Reg: False 
+Eficacia en entrenamiento: 97.4620103276698
+Eficacia en prueba:  92.76032149372867
+-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*
+
+-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*
+Fecha y hora de ejecucion: Sat Dec 26 18:31:52 2020
+Parametros utiizados: 
+       Alp: 0.001
+       Lam: 150 
+       Reg: False 
+Eficacia en entrenamiento: 97.76710723470286
+Eficacia en prueba:  86.35577230720753
+-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*
+
+-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*
+Fecha y hora de ejecucion: Sat Dec 26 18:49:30 2020
+Parametros utiizados: 
+       Alp: 0.001
+       Lam: 150 
+       Reg: False 
+Eficacia en entrenamiento: 98.18860385363875
+Eficacia en prueba:  89.61294538572417
+-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*
+
+-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*
+Fecha y hora de ejecucion: Sat Dec 26 18:49:47 2020
+Parametros utiizados: 
+       Alp: 1e-07
+       Lam: 100 
+       Reg: False 
+Eficacia en entrenamiento: 62.2615410746986
+Eficacia en prueba:  62.162684304788556
+-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*
+
+-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*
+Fecha y hora de ejecucion: Sat Dec 26 18:50:05 2020
+Parametros utiizados: 
+       Alp: 1e-06
+       Lam: 200 
+       Reg: False 
+Eficacia en entrenamiento: 66.25313416058555
+Eficacia en prueba:  65.83165077388438
+-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*
+
+-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*
+Fecha y hora de ejecucion: Sat Dec 26 18:50:23 2020
+Parametros utiizados: 
+       Alp: 0.0001
+       Lam: 50 
+       Reg: False 
+Eficacia en entrenamiento: 89.66738125883091
+Eficacia en prueba:  85.05108978718668
+-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*
+
+-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*
+Fecha y hora de ejecucion: Sat Dec 26 18:51:18 2020
+Parametros utiizados: 
+       Alp: 1e-05
+       Lam: 150 
+       Reg: True 
+Eficacia en entrenamiento: 78.40916186215229
+Eficacia en prueba:  76.92398190845007
+-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*
